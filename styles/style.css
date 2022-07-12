@@ -95,6 +95,23 @@
     object-fit: cover;
     /*opacity: 0.65;*/
 }
-.gold-text {
-    color: white;
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 14px, rgba(0, 0, 0, 0.22) 0 8px 8px;
+}
+.card, .card-footer {
+    border-color: #eac861 !important;
+}
+.btn-warning {
+    color: white !important;
+    background-color: #eac861 !important;
+    border-color: #eac861 !important;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.2), 0 5px 7px 0 rgba(0,0,0,0.19) !important;
+}
+.btn-warning:hover {
+    color: white !important;
+    border-color: #edd078 !important;
+    background-color: #edd078 !important;
+}
+.btn-warning:focus {
+    box-shadow: none !important;
 }
