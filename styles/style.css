@@ -129,6 +129,29 @@
 .btn-outline-warning:focus {
     box-shadow: none !important;
 }
+.font-20 {
+    font-size: 20px;
+}
 .font-24 {
     font-size: 24px;
+}
+.paralax-pocetna {
+    background-image: url(../images/paralax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh; /* 100% of viewport height */
+    margin: 0 auto;
+    position: relative;
+}
+.paralax-pocetna .paralax-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    background-color: rgba(100, 196, 237, 0.6);
+    border-radius: 10px;
 }
