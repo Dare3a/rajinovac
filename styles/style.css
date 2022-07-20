@@ -160,31 +160,28 @@
 footer {
     background: #4F81C7;
     color: white;
-    margin-top:100px;
 }
 
 footer a {
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
+    text-decoration: none;
     transition-duration: 0.2s;
 }
 
 footer a:hover {
-    color: #FA944B;
+    color: #64C4ED;
     text-decoration: none;
 }
 
 .copy {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
     border-top: 1px solid #FFFFFF;
 }
-
-.footer-middle {
-    padding-top: 2em;
-    color: white;
+.copy a {
+    font-size: 14px;
 }
-
 
 /*SOCİAL İCONS*/
 
@@ -219,7 +216,7 @@ footer .social-network a.icoMap:hover {
 footer .social-network a.icoFacebook:hover i,
 footer .social-network a.icoEmail:hover i,
 footer .social-network a.icoMap:hover i{
-    color: #fff;
+    color: #FCFAFA;
 }
 
 footer .social-network a.socialIcon:hover,
@@ -269,5 +266,5 @@ footer .social-circle i {
 }
 
 footer .social-network a {
-    background-color: #F9F9F9;
+    background-color: #FCFAFA;
 }
