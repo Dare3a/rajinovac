@@ -109,8 +109,8 @@
  }
 .btn-warning:hover {
     color: white !important;
-    border-color: #edd078 !important;
-    background-color: #edd078 !important;
+    border-color: #e8c04a !important;
+    background-color: #e8c04a !important;
 }
 .btn-warning:focus {
     box-shadow: none !important;
@@ -267,4 +267,20 @@ footer .social-circle i {
 
 footer .social-network a {
     background-color: #FCFAFA;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    color: white !important;
+    background-color: #eac861 !important;
+}
+
+.back-to-top:hover {
+    background-color: #e8c04a !important;
+}
+
+.back-to-top:focus {
+    box-shadow: none !important;
 }
