@@ -183,91 +183,76 @@ footer a:hover {
     font-size: 14px;
 }
 
-/*SOCİAL İCONS*/
-
-/* footer social icons */
-
+/*new social in footer*/
 footer ul.social-network {
-    list-style: none;
-    display: inline;
     margin-left: 0 !important;
     padding: 0;
 }
-
-footer ul.social-network li {
+.social-in-footer ul li {
     display: inline;
     margin: 0 5px;
+    list-style: none;
 }
 
-
-/* footer social icons */
-
-footer .social-network a.icoFacebook:hover {
-    background-color: #64C4ED;
-}
-
-footer .social-network a.icoEmail:hover {
-    background-color: #64C4ED;
-}
-footer .social-network a.icoMap:hover {
-    background-color: #64C4ED;
-}
-
-footer .social-network a.icoFacebook:hover i,
-footer .social-network a.icoEmail:hover i,
-footer .social-network a.icoMap:hover i{
-    color: #FCFAFA;
-}
-
-footer .social-network a.socialIcon:hover,
-footer .socialHoverClass {
-    color: #44BCDD;
-}
-
-footer .social-circle li a {
+.social-in-footer ul li a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 0 auto;
     display: inline-block;
-    position: relative;
-    margin: 0 auto 0 auto;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    /*border: 1px solid #fff;*/
+    z-index: 1;
 }
 
-footer .social-circle li i {
-    margin: 0;
-    line-height: 30px;
-    text-align: center;
-}
-
-footer .social-circle li a:hover i,
-.triggeredHover {
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms--transform: rotate(360deg);
-    transform: rotate(360deg);
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    transition: all 0.2s;
-}
-
-footer .social-circle i {
+.social-in-footer ul li a .icon {
+    position: relative;
     color: #595959;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    -ms-transition: all 0.8s;
-    transition: all 0.8s;
+    transition: .5s;
+    z-index: 3;
 }
 
-footer .social-network a {
-    background-color: #FCFAFA;
+.social-in-footer ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
 }
+
+.social-in-footer ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.social-in-footer ul li a:hover:before {
+    top: 0;
+}
+
+.social-in-footer ul li:nth-child(1) a:before{
+    background: #64C4ED;
+}
+
+.social-in-footer ul li:nth-child(2) a:before{
+    background: #64C4ED;
+}
+
+.social-in-footer ul li:nth-child(3) a:before {
+    background: #64C4ED;
+}
+
+/*top up dugme*/
 .back-to-top {
     position: fixed;
     bottom: 25px;
