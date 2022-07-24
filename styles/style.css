@@ -269,6 +269,7 @@ footer ul.social-network {
     display: none;
     color: white !important;
     background-color: #eac861 !important;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.2), 0 5px 7px 0 rgba(0,0,0,0.19) !important;
 }
 
 .back-to-top:hover {
@@ -279,21 +280,19 @@ footer ul.social-network {
     box-shadow: none !important;
 }
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 16px;
 }
-
+/*scrollbar*/
 /* Track */
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 8px;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #eac861;
     border-radius: 8px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #e8c04a;
