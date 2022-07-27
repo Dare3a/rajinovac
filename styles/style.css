@@ -426,7 +426,7 @@ footer ul.social-network {
     -webkit-transform: scale3d(1.2, 1.2, 1);
     transform: scale3d(1.2, 1.2, 1);
 }
-*, *::before, *::after{
+.img-box img, .img-box img::before, .img-box img::after{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
