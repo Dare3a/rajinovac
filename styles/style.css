@@ -331,3 +331,98 @@ footer ul.social-network {
     border-radius: 8px;
     border: 1px solid #e8c04a;
 }
+/*CAROUSEL PRODUCT*/
+.produkti-naslovna .carousel {
+    margin: 30px auto 60px;
+    padding: 0 80px;
+}
+.produkti-naslovna .carousel .carousel-item {
+    text-align: center;
+    overflow: hidden;
+}
+.produkti-naslovna .carousel .carousel-item img {
+    max-width: 100%;
+    display: inline-block;
+}
+.produkti-naslovna .carousel .carousel-item .btn {
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    border: none;
+    background: #eac861;
+    padding: 6px 15px;
+    margin-top: 5px;
+}
+.produkti-naslovna .carousel .carousel-item .btn:hover {
+    background: #e8c04a;
+}
+.produkti-naslovna .carousel .carousel-item .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.produkti-naslovna .carousel .thumb-wrapper {
+    margin: 5px;
+    text-align: left;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px, rgba(0, 0, 0, 0.1) 0 2px 5px;
+}
+.produkti-naslovna .carousel .thumb-content {
+    padding: 15px;
+    font-size: 13px;
+}
+.produkti-naslovna .carousel-control-prev, .produkti-naslovna .carousel-control-next {
+    height: 44px;
+    width: 44px;
+    background: none;
+    margin: auto 0;
+    border-radius: 50%;
+    border: 3px solid rgb(89, 89, 89);
+}
+.produkti-naslovna .carousel-control-prev i, .produkti-naslovna .carousel-control-next i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgb(89, 89, 89);
+    text-shadow: none;
+    font-weight: bold;
+}
+.produkti-naslovna .carousel-control-prev i {
+    margin-left: -3px;
+}
+.produkti-naslovna .carousel-control-next i {
+    margin-right: -3px;
+}
+.produkti-naslovna .carousel-indicators {
+    bottom: -50px;
+}
+.produkti-naslovna .carousel-indicators button, .produkti-naslovna .carousel-indicators button.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 4px;
+    border: none;
+}
+.produkti-naslovna .carousel-indicators button {
+    background: #595959;
+}
+.produkti-naslovna .carousel-indicators button.active {
+    background: #404040;
+}
+.img-box {
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.img-box:hover img {
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
+}
