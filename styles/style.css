@@ -33,7 +33,11 @@
 .grey-color {
     color: #595959;
 }
-
+.navbar {
+    /*border-bottom: 1px solid white;*/
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);;
+}
 .navbar {
     background-color: #64C4ED;
     font-size: 20px;
