@@ -114,7 +114,7 @@
 }
 
 .vesti .card {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 14px, rgba(0, 0, 0, 0.22) 0 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 5px 5px, rgba(0, 0, 0, 0.22) 0 5px 5px;
 }
 
 .vesti .card, .vesti .card-footer {
@@ -134,7 +134,7 @@
     color: white !important;
     background-color: #eac861 !important;
     border-color: #eac861 !important;
-    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 .vesti .btn-warning:hover {
@@ -150,7 +150,7 @@
 .btn-outline-warning {
     color: #595959 !important;
     border-color: #eac861 !important;
-    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 .btn-outline-warning:hover {
@@ -300,7 +300,7 @@ footer ul.social-network {
     display: none;
     color: white !important;
     background-color: #eac861 !important;
-    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 .back-to-top:hover {
@@ -357,6 +357,7 @@ footer ul.social-network {
     background: #eac861;
     padding: 6px 15px;
     margin-top: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .produkti-naslovna .carousel .carousel-item .btn:hover {
     background: #e8c04a;
@@ -369,7 +370,12 @@ footer ul.social-network {
 .produkti-naslovna .card {
     text-align: center;
     background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 5px, rgba(0, 0, 0, 0.1) 0 2px 5px;
+    /*box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px, rgba(0, 0, 0, 0.1) 5px 5px 5px;*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0 5px 5px, rgba(0, 0, 0, 0.22) 0 5px 5px;
+    border: 1px solid #eac861;
+}
+.produkti-naslovna .carousel-item {
+    padding: 10px;
 }
 .produkti-naslovna .carousel-control-prev, .produkti-naslovna .carousel-control-next {
     height: 44px;
