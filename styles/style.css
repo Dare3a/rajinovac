@@ -455,3 +455,16 @@ footer ul.social-network {
     -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
 }
+.send-button .send-dugme {
+    border-radius: 15px;
+    color: white !important;
+    background-color: #eac861 !important;
+}
+.send-button .send-dugme:hover {
+    background-color: #e8c04a !important;
+}
+.send-button .form-control:focus {
+    border-color: #eac861 !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
+}
