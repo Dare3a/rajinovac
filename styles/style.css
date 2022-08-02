@@ -468,3 +468,13 @@ footer ul.social-network {
     -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
 }
+.kontakt-podatci a {
+    color: #4F81C7;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.kontakt-podatci a:hover {
+    color: #64C4ED;
+    /*text-decoration: none;*/
+}
