@@ -444,3 +444,14 @@ footer ul.social-network {
 .cena {
     color: #4F81C7;
 }
+.kontakt input,
+.kontakt textarea {
+    background-color: #fcfafa !important;
+    /*box-shadow: 8px 8px 6px 0 rgba(0, 0, 0, 0.50);*/
+}
+
+.kontakt .form-control:focus {
+    border-color: #eac861 !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
+}
