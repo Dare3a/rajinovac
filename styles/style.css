@@ -483,16 +483,17 @@ footer ul.social-network {
     padding: 0;
 }
 .lista-linkova li {
-    border-bottom: 1px dashed #fff;
+    border-bottom: 1px dashed #ecdfdf;
     padding-top: 5px;
 }
 .sidebar-linkovi {
-    background-image: url(../images/grunge-paper-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-image: url(../images/watercolour-background-with-leaves.webp);*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/
-    background-position: center;
-    /*border-top: solid 3px #eac861;*/
+    /*background-position: center;*/
+    background-color: #fcfafa;
+    /*border-top: solid 1px #eac861;*/
     padding: 15px 15px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 5px, rgba(0, 0, 0, 0.22) 0 4px 5px;
