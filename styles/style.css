@@ -125,7 +125,9 @@
     color: #595959 !important;
     text-decoration: none;
 }
-
+.vesti .card-body {
+    background-color: #fcfafa;
+}
 .card-title a:hover {
     color: #404040 !important;
 }
