@@ -517,7 +517,8 @@ footer ul.social-network {
 }
 
 .image-grid a:hover img {
-    border: 1px solid #eac861;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px -2px 5px, rgba(0, 0, 0, 0.25) 2px 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) -2px -2px 5px, rgba(0, 0, 0, 0.25) 2px 2px 5px;
 }
 
 /* LIGHTBOX STYLES
