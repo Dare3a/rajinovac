@@ -574,3 +574,6 @@ footer ul.social-network {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+.gold-dashed-border {
+    border-bottom: 1px dashed #eac861;
+}
