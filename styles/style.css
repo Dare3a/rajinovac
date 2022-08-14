@@ -577,3 +577,6 @@ footer ul.social-network {
 .gold-dashed-border {
     border-bottom: 1px dashed #eac861;
 }
+.aktivno {
+    color: rgba(0,0,0,.7) !important;
+}
