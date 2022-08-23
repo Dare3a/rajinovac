@@ -42,6 +42,11 @@
     background-color: #64C4ED;
     font-size: 20px;
     font-weight: bold;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.navbar-brand {
+    margin-right: 0 !important;
 }
 
 .dropdown-menu {
