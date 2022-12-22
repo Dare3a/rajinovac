@@ -588,3 +588,6 @@ footer ul.social-network {
 .greyscale {
     filter: grayscale(100%);
 }
+.greyscale:hover {
+    filter: none;
+}
