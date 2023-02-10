@@ -591,3 +591,7 @@ footer ul.social-network {
 .greyscale:hover {
     filter: none;
 }
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
