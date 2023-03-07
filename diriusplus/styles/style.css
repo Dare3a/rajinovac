@@ -5141,6 +5141,7 @@
     .bottom-menu {
         position: -webkit-sticky;
         position: sticky;
+        overflow: hidden;
         bottom: 0;
         width: 100%;
     }
