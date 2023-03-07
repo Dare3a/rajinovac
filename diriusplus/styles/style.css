@@ -5139,9 +5139,12 @@
 
 @media (max-width: 768px) {
     .bottom-menu {
+        display: flex;
         position: -webkit-sticky;
         position: sticky;
-        overflow: hidden;
+        /*will-change: transform;*/
+        /*-webkit-transform: translateZ(0);*/
+        /*transform: translateZ(0);*/
         bottom: 0;
         width: 100%;
     }
