@@ -5139,11 +5139,9 @@
 
 @media (max-width: 768px) {
     .bottom-menu {
-        display: flex;
-        position: -webkit-sticky;
-        position: sticky;
+        position: -ms-device-fixed;
+        position: fixed;
         bottom: 0;
-        transform: translateY(-0%);
         width: 100%;
     }
 
@@ -5774,6 +5772,7 @@ label {
 #hamburger img {
     cursor: pointer;
 }
+
 .dropdown-menu {
     background-color: #e4e6e7 !important;
     position: relative;
@@ -5781,8 +5780,9 @@ label {
     background-clip: padding-box;
     box-sizing: border-box;
     padding: 0.5rem 0;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 1px solid rgba(0, 0, 0, .15);
 }
+
 .dropdown-item {
     display: block;
     clear: both;
@@ -5790,14 +5790,17 @@ label {
     width: 100%;
     padding: 0.25rem 1rem;
 }
+
 .dropdown-item:hover {
     background-color: #4D545E !important;
     color: white !important;
 }
+
 .podfooter-link {
     text-decoration: none;
     color: #CAF7FF;
 }
+
 .podfooter-link:hover {
     text-decoration: underline;
 }
