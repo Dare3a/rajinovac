@@ -5142,10 +5142,8 @@
         display: flex;
         position: -webkit-sticky;
         position: sticky;
-        will-change: transform;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
         bottom: 0;
+        transform: translateY(-0%);
         width: 100%;
     }
 
