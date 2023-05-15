@@ -7,7 +7,7 @@ if (isset($_POST["submit"])) {
     $message = $_POST['message'];
 
 
-    $to = 'manastirrajinovac@gmail.com';
+    $to = 'darko.ilic83@gmail.com';
     $subject = 'Contact form';
     $body = "Ime: $name\r\n\nPrezime: $surname\n\nE-mail: $email\n\nTelefon: $telefon\n\nPoruka: $message";
 
