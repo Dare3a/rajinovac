@@ -61,7 +61,7 @@
 .btn-urban {
     font-size: 16px;
     color: white;
-    background-color: #292663;
+    background-color: #8ed8f8;
     padding: 4px 20px;
     border: 1px solid white;
     /*border-radius: 5px;*/
@@ -266,7 +266,7 @@
     /*background-color: #a8dadc;*/
     color: #4d4d4d;
 }
-.pozadina {
+.pozadina-kontakt {
     background-image: url(../images/kontakt-pozadina.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -309,5 +309,12 @@
     background-color: #e1e5f2 !important;
     /* border-radius: 0 !important; */
 }
-
-
+.pozadina {
+    background-image: url(../images/grad-pancevo-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.transbox {
+    background: rgba(142, 216, 248, 0.1);
+}
