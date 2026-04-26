@@ -211,7 +211,7 @@ footer {
 }
 
 footer a {
-    color: #fff;
+    color: #bbe5f7;
     font-size: 15px;
     text-decoration: none;
     transition-duration: 0.2s;
@@ -230,6 +230,7 @@ footer a:hover {
 
 .copy a {
     font-size: 14px;
+    color: #bbe5f7;
 }
 
 /*new social in footer*/
